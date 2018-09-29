@@ -63,7 +63,7 @@ class TicTacToe
     end
 
     def current_player
-      if turn_count?odd
+      if turn_count % 2 == 0
         return "X"
       else
         return "O"
