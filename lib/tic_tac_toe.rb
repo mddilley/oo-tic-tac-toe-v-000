@@ -90,7 +90,7 @@ class TicTacToe
     end
 
     def full?
-      if @board.length == @board.select {|i| i == "X" || i = "O"}.length
+      if @board == @board.select {|i| i == "X" || i == "O"}
         return true
       else
         return false
