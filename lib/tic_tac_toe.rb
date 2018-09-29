@@ -113,6 +113,12 @@ class TicTacToe
       end
     end
 
-
+    def winner
+      if won? != false
+        winner = won?(@board)
+        return winner[0]
+      else
+        return nil
+    end
 
 end
