@@ -71,9 +71,9 @@ class TicTacToe
 
     def won?
       WIN_COMBINATIONS.each do |position|
-      position_1 = posiiton[0]
-      position_2 = posiiton[1]
-      position_3 = posiiton[2]
+      position_1 = position[0]
+      position_2 = position[1]
+      position_3 = position[2]
 
       index_1 = @board[position_1]
       index_2 = @board[position_2]
