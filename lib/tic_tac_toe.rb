@@ -79,9 +79,9 @@ class TicTacToe
       index_2 = @board[position_2]
       index_3 = @board[position_3]
 
-        if index_1 == "X" && position_2 == "X" && position_3 == "X"
+        if index_1 == "X" && index_2 == "X" && index_3 == "X"
           return position
-        elsif index_1 == "O" && position_2 == "O" && position_3 == "O"
+        elsif index_1 == "O" && index_2 == "O" && index_3 == "O"
           return position
         end
       end
