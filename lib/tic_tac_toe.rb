@@ -59,7 +59,8 @@ class TicTacToe
     end
 
     def turn_count
-      count = @board.select{ |i| i == "X" || "O"}.length
+      count = @board.select{ |i| i == "X" || "O"}
+      return count.length
     end
 
 end
