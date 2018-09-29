@@ -68,7 +68,7 @@ class TicTacToe
       else
         return "O"
       end
-    end  
+    end
 
     def won?
       WIN_COMBINATIONS.each do |position|
