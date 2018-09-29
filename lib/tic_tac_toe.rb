@@ -61,7 +61,7 @@ class TicTacToe
     end
 
     def turn_count
-      count = @board.select{ |i| i == "X" || i == "O"}.length
+      count = (@board.select{ |i| i == "X" || i == "O"}).length
     end
 
     def current_player
