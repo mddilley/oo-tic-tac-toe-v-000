@@ -46,4 +46,9 @@ class TicTacToe
         nil
       end
     end
+
+    def turn
+      
+    end
+    
 end
