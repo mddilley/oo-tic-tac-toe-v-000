@@ -89,7 +89,7 @@ class TicTacToe
       return false
     end
 
-    def full
+    def full?
       if @board == @board.select {|i| i == "X" || i = "O"}
         return true
       else
