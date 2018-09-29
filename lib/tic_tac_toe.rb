@@ -68,6 +68,10 @@ class TicTacToe
       else
         return "O"
       end
+
+    def won?
+      
+    end
     end
 
 
