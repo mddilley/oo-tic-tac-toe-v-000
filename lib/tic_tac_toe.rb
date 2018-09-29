@@ -31,4 +31,10 @@ class TicTacToe
       @board[input] = token
     end
 
+    def position_taken?(input)
+      if @board[input] != "X" && @board[input] != "O"
+        return false
+      else
+        return true
+      end
 end
