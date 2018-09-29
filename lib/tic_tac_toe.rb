@@ -132,6 +132,6 @@ class TicTacToe
       elsif draw?
         "Cat's game!"
       end
-    end  
+    end
 
 end
