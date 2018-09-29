@@ -93,7 +93,7 @@ class TicTacToe
       if @board == @board.select {|i| i == "X" || i = "O"}
         return true
       else
-        false
+        return false
       end
     end
 
