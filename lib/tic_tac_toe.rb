@@ -119,6 +119,7 @@ class TicTacToe
         return winner[0]
       else
         return nil
+      end
     end
 
 end
