@@ -88,7 +88,15 @@ class TicTacToe
       end
       return false
     end
-  
+
+    def full
+      if @board == @board.select {|i| i == "X" || i = "O"}
+        return true
+      else
+        false
+      end 
+    end
+
 
 
 
