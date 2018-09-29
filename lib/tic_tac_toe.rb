@@ -94,7 +94,7 @@ class TicTacToe
         return true
       else
         false
-      end 
+      end
     end
 
 
