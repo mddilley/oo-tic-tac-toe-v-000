@@ -130,7 +130,7 @@ class TicTacToe
       end
       if won? != false
         "Congratulations #{winner}!"
-      elsif draw?
+      elsif draw? == true
         "Cat's game!"
       end
     end
