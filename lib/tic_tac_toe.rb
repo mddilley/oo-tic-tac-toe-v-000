@@ -54,10 +54,10 @@ class TicTacToe
       if valid_move?(input) == true
         token = current_player
         move(input, token)
-        display_board
       else
         turn
       end
+      display_board
     end
 
     def turn_count
